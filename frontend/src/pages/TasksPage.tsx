@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import api from '../api/axios';
 import { Task, TaskPayload, TaskStatus } from '../types';
 import Navbar from '../components/Navbar';

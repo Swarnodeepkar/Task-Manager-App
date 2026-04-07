@@ -1,4 +1,3 @@
-import React from 'react';
 import { TaskStatus } from '../types';
 
 interface FilterBarProps {
