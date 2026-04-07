@@ -7,12 +7,9 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    healthCheckPath: /api/auth/login
     envVars:
       - key: NODE_ENV
         value: production
-      - key: PORT
-        value: 5000
       - key: MONGO_URI
         value: mongodb+srv://swarnodeepk:SYPdm085w9bMeM5e@wellzio-stag.wvh8tzv.mongodb.net/taskmanager
       - key: JWT_SECRET
